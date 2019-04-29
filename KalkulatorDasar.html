@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator Dasar</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="skripkalku.js"></script>
+</head>
+<body>
+    <CENTER>
+        <div class="container">
+            <div class="panel panel-default">
+                <div class="panel-heading">Simple Calculator By DIKA</div><br>
+                <div class="panel-body">
+                    <FORM name="form">
+                        <div class="form-inline" role="form">
+                            <label for="angka1">Angka ke 1 </label>
+                            <input type="text" name="a" class="form-control"></br>
+                        </div>
+                        <div class="form-inline" role="form">
+                            <label for="angka1">Angka ke 2 </label>
+                            <input type="text" name="b" class="form-control"></br>
+                        </div><br>
+                        <div class="form-inline" role="form">
+                            Hasil <input type="text" name="hasil" disabled="true" class="form-control"></br></br>
+                        </div>
+                            <input type="button" class="btn btn-info" value="+" onClick="tambah()">
+                            <input type="button" class="btn btn-info" value="-" onClick="kurang()">
+                            <input type="button" class="btn btn-info" value="x" onClick="kali()">
+                            <input type="button" class="btn btn-info" value="/" onClick="bagi()"">
+                            <input type="button" class="btn btn-info" value="^" onClick="pangkat()"">
+                            <input type="button" class="btn btn-danger" value="Hapus"  onClick="kosong()"">
+                        <br>
+                    </FORM>
+                </div>
+            </div>
+        </div>
+    </CENTER>
+</body>
+</html>

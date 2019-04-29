@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
+
+body{
+  float: center;
+  width: 50%;
+  padding: 400px;
+}
+
+.form-inline{
+  font-weight: bold;
+  color: #515151; 
+}
+.panel{
+  border: 3px solid rgb(20, 116, 139);
+  padding: 50px;
+  background-image: url("memphis.jpg");
+  background-size: 500px 300px;
+  border-radius: 20px;
+}
+.panel-heading{
+  font-family: "Roboto", sans-serif;
+  background-color: aquamarine;
+  text-align: center;
+  font-size: 25px;
+  max-width: 220px;
+  color: #515151; 
+  font-weight: bold;
+  border-radius: 15px;
+}
+.form-control{
+  background-color: #EDEBB1;
+}
+.btn-info{
+background-color: #EDEBB1;
+font-weight: bold;
+}
+.btn-danger{
+background-color: #EDEBB1;
+font-weight: bold;
+}
